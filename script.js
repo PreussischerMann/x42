@@ -63,20 +63,8 @@ bstart = setInterval(() => {
   let mins = date.getMinutes();
   let secs = date.getSeconds();
   //SET TIME
-  if(hrs == 13 && mins == 40 && secs == 00){
+  if(hrs == 13 && mins == 42 && secs == 00){
     new Notification("Round 0 starts now!!!");
     overspin();
   }
 }, 1000)
-
-
-
-
-
-
-
-
-
-
-
-
