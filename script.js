@@ -1,3 +1,5 @@
+console.log("yes");
+
 var disp = document.querySelector('.display');
 //var spin = document.querySelector('.spin');
 var entname = document.querySelector('#addname');
@@ -69,6 +71,7 @@ bstart = setInterval(() => {
     console.log("console workds");
   }
 }, 1000)
+
 
 
 
