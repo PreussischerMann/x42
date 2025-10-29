@@ -1,4 +1,4 @@
-console.log("yes");
+disp.onclick = disp.style.backgroundColor = "deeppink";
 
 var disp = document.querySelector('.display');
 //var spin = document.querySelector('.spin');
@@ -71,6 +71,7 @@ bstart = setInterval(() => {
     console.log("console workds");
   }
 }, 1000)
+
 
 
 
